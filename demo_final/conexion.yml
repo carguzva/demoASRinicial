@@ -1,6 +1,6 @@
 ---
 - name: AUTOMATIC BACKUP OF RUNNING-CONFIG
-  hosts: "{{ router_var }}"
+  hosts: "IDCCO01"
   gather_facts: false
   connection: local
   tasks:

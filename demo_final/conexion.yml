@@ -1,6 +1,6 @@
 ---
 - name: AUTOMATIC BACKUP OF RUNNING-CONFIG
-  hosts: "IDCCO01"
+  hosts: "ASRPrueba"
   gather_facts: false
   connection: local
   tasks:

@@ -8,4 +8,9 @@
      cisco.iosxr.iosxr_command:
        commands:
          - show running-config  
+     register: temp
 
+
+   - name: print
+     debug:
+       msg: "{{ temp.meta }}"

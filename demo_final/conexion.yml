@@ -13,4 +13,4 @@
 
    - name: print
      debug:
-       msg: "{{ temp.meta }}"
+       msg: "{{ temp.stdout[0] }}"

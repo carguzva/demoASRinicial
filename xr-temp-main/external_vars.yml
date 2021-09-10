@@ -20,7 +20,7 @@
 # Variables para el ajuste de policy-map, nombre del router, numero de la interfaz bundle, 
 # relacion de velocidades actuales y ajustes, interfaces a dar de baja del bundle
 
-   router_var: 'IDCBO01'
+   router_var: 'IDCBOR01'
    bundle_var: 100
    tabla_maps: { '300Mbps-IN' : '600Mbps-IN',
                  '50Mbps-IN' : '100Mbps-IN',
